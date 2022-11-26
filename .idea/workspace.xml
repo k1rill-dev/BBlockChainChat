@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a7ccdd7a-0878-4727-b000-ffb21a836355" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/RSA_AES.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/migrations/0003_alter_message_options_remove_message_hash_bloks_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/migrations/0004_message_hash_bloks.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/migrations/0005_profile.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/migrations/0006_alter_message_receiver_alter_message_sender.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/chat/migrations/0007_message_full_name_receiver_message_full_name_send.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/dist/object-assign-auto.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/dist/object-assign-auto.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/dist/object-assign.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/dist/object-assign.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/es6-object-assign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/.npmignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/karma.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/promise.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/test/adapter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/promise-polyfill/test/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/dist/sweetalert.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/core.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/actions.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/class-list/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/event-listeners.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/icon.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/init/text.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/icons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/modal.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/markup/overlay.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/options/buttons.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/options/content.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/options/deprecations.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/options/index.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/state.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/modules/utils.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert/typings/sweetalert.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.all.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.all.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/dist/sweetalert2.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/SweetAlert.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/buttons-handlers.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/globalState.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/_destroy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/close.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/enable-disable-elements.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/getInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/hideLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/update.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/instanceMethods/validation-message.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/keydown-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/popup-click-handler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/privateMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/privateProps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_theming.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_toasts-animations.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_toasts-body.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/scss/_toasts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/argsToParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/bindClickHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/fire.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/mixin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/showLoading.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/staticMethods/timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/sweetalert2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/sweetalert2.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/types.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/DismissReason.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/Timer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/aria.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/classes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/defaultInputValidators.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/animationEndEvent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/domUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/init.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/inputUtils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/measureScrollbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/parseHtmlToContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/render.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderActions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderCloseButton.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderContainer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderContent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderFooter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderIcon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderImage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderInput.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderProgressSteps.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/dom/renderers/renderTitle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/getTemplateParams.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/iosFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/isNodeEnv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/openPopup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/params.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/scrollbarFix.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/setParameters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/utils/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/src/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/node_modules/sweetalert2/sweetalert2.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatting-app-django/templates.7z" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/ChatApp/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/ChatApp/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/blockchain.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/blockchain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/serializers.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/chat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/chat/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/static/js/chat.js" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/static/js/chat.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/templates/chat/chat.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/templates/chat/chat.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/templates/chat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/templates/chat/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/templates/chat/landing.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/templates/chat/landing.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/templates/chat/messages.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/templates/chat/messages.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatting-app-django/templates/chat/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/chatting-app-django/templates/chat/register.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/chatting-app-django" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2I4eE3dI6IBh4hw8qu7mdE47xg5" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/python_projects/chatting-app&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a7ccdd7a-0878-4727-b000-ffb21a836355" name="Changes" comment="" />
+      <created>1669445169851</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1669445169851</updated>
+      <workItem from="1669445172073" duration="812000" />
+      <workItem from="1669446176807" duration="1325000" />
+      <workItem from="1669447517391" duration="2015000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

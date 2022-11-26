@@ -1,0 +1,62 @@
+{% extends 'chat/chat.html' %}
+{% block hide %}{% endblock %}
+{% block messages %}
+{% for i in change %}
+{% if i.change_bool %}
+<script type="module">
+                Swal.fire({
+  icon: 'error',
+  title: 'БЛОК БЛОКЧЕЙНА БЫЛ ИЗМЕНЕН',
+  text: 'УВЕДОМЛЕНИЕ ОБ ЭТОМ БЫЛО ОТПРАВЛЕНО АДМИНИСТРАТОРУ НА ПОЧТУ',
+})
+
+            </script>
+{% endif %}
+{% endfor %}
+{% for message in messages %}
+{% if message.1 == 1 %}
+<ul id="msg">
+    <li class="msg-element">
+        <div class="card-panel right" style="width: 75%; position: relative">
+
+            <div style="position: absolute; top: 0; left:3px; font-weight: bolder" class="title">{{ request.user.username }}</div>
+            {{ message.0 }}
+            <div style="
+    position: relative;
+    float: right;
+    bottom: 20px;
+">{{ message.2 }}</div>
+        </div>
+    </li>
+</ul>
+{% else %}
+<ul id="msg">
+    <li class="msg-element">
+        <div class="card-panel left blue lighten-5" style="width: 75%; position: relative">
+            <div style="position: absolute; top: 0; left:3px; font-weight: bolder" class="title">{{ receiver.username }}</div>
+            {{ message.0 }}
+            <div style="
+    position: relative;
+    float: right;
+    bottom: 20px;
+">{{ message.2 }}</div>
+        </div>
+    </li></ul>
+{% endif %}
+{% endfor %}
+<script>
+$(function () {
+    $('#user{{ receiver.id }}').addClass('active');
+    //Call receive function each 1 seconds to check for new messages in the database
+    setInterval(receive,1000);
+})
+$(document).ready(function() {
+        var $elements = $('#msg .msg-element');
+        $('#select-msg').on('keyup input', function() {
+            var value = this.value;
+            $elements.hide();
+            $elements.filter(':contains("' + value + '")').show();
+        });
+        });
+</script>
+{% endblock %}

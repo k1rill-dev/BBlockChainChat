@@ -1,0 +1,8 @@
+Django
+django-widget-tweaks
+djangorestframework
+pytz
+django-environ
+sympy
+numba
+pyaes

@@ -1,0 +1,87 @@
+{% extends 'chat/index.html' %}
+{% block body %}
+<nav class="blue lighten-3">
+    <div class="nav-wrapper container">
+        <a href="#" class="brand-logo">Chat</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="">{{ request.user.get_full_name }}</a></li>
+            <li><a href="{% url 'logout' %}"><i class="material-icons">power_settings_new</i></a></li>
+        </ul>
+    </div>
+</nav>
+<div class="section" style="height: 80vh">
+    <div class="row">
+        <div class="col s3">
+            <div class="card">
+                <input id="select" style="background-color: #fffff;/* color: #ffffff; */font-size: 15px;position: relative;left: 20px;width: auto;" name="q" type="text" placeholder="Введите имя друга..." >
+
+                <div class="collection">
+                    {% for user in users %}
+                    <ul id="list" style="border-radius: 10px;">
+                        <li class="element" style="border-radius: 30px;"><a href="{% url 'chat' request.user.id user.id %}" id="user{{ user.id }}" class="collection-item row" style="border-radius: 10px; color: #fffff;">
+                            <div class="col s8" style="border-radius: 10px; color: #fffff;">
+                                <span class="title" style="font-weight: bolder; border-radius: 10px; color: #fffff;">{{ user.get_full_name }}</span>
+                            </div>
+                        </a></li>
+                    </ul>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col s9">
+            <input id="select-msg"
+                   class="element"
+                   style="width: 145px;"
+                   name="q" type="text" placeholder="Поиск">
+            <div class="card">
+                <div id="board" class="section grey lighten-3" style="height: 68vh; padding: 5px; overflow-y: scroll">
+                    {% block messages %}
+                    {% endblock %}
+                </div>
+                <form id="chat-box" class="form-group {% block hide %}hide{% endblock %}" method="post">
+                    {% csrf_token %}
+                    <div class="row">
+                        <div class="col s11">
+                            <div class="input-field">
+                                <input id="id_message" name="message" type="text" placeholder="Type your message..">
+                            </div>
+                        </div>
+                        <div class="col s1" style="line-height: 80px">
+                            <button class="btn btn-floating blue lighten-2 waves-effect waves-light"><i class="material-icons">send</i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% load static %}
+<script src="{% static 'js/chat.js' %}"></script>
+<script>
+
+        // For receiving
+        sender_id = "{{ receiver.id }}";
+        receiver_id = "{{ request.user.id }}";
+
+
+        //For sending
+        $(function () {
+            scrolltoend();
+            $('#chat-box').on('submit', function (event) {
+                event.preventDefault();
+                var message = $('#id_message');
+                send('{{ request.user.username }}', '{{ receiver.username }}' ,message.val(),full_name_send='{{ request.user.get_full_name }}',full_name_receiver='{{ receiver.get_full_name }}');
+                message.val('');
+            })
+        })
+         $(document).ready(function() {
+        var $elements = $('#list .element');
+        $('#select').on('keyup input', function() {
+            var value = this.value;
+            $elements.hide();
+            $elements.filter(':contains("' + value + '")').show();
+        });
+        });
+    </script>
+
+{% endblock %}
